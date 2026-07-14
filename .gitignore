@@ -1,0 +1,98 @@
+# =====================
+# .NET / C# Backend
+# =====================
+BE/**/bin/
+BE/**/obj/
+BE/**/.vs/
+BE/**/*.user
+BE/**/*.suo
+BE/**/*.rsuser
+BE/**/*.csproj.user
+BE/**/*.dll
+BE/**/*.pdb
+BE/**/publish/
+BE/env.json
+
+
+# NuGet
+*.nupkg
+.nuget/
+
+# =====================
+# AWS Lambda / SAM
+# =====================
+.aws-sam/
+BE/**/.aws-sam/
+samconfig.toml
+BE/**/*.zip
+packaged.yaml
+packaged-template.yaml
+*.changeset.json
+
+# AWS credentials - never commit
+.aws/
+credentials
+config
+
+# =====================
+# Frontend - React / Vite
+# =====================
+FE/**/node_modules/
+FE/**/dist/
+FE/**/dist-ssr/
+FE/**/*.local
+
+# =====================
+# Environment files
+# =====================
+.env
+.env.*
+!.env.example
+BE/**/.env
+BE/**/.env.*
+!BE/**/.env.example
+FE/**/.env
+FE/**/.env.*
+!FE/**/.env.example
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =====================
+# Test/debug artifacts (có thể chứa token/dữ liệu nhạy cảm)
+# =====================
+*.token
+test-response*.json
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =====================
+# OS / Temp
+# =====================
+*.tmp
+*.temp
+*.bak
+.vs/
+
+# Docker
+.docker/
+docker-data/
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json. v s / 
+ 
+ 
